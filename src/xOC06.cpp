@@ -22,14 +22,14 @@ xOC06::xOC06(void)
 {
 	REG_OUTPUT = 0x00;
 	STEP_SIZE = 1;
-	PCA9554A_I2C_ADDRESS = 0x38	// I2C Address of Chip
+	PCA9554A_I2C_ADDRESS = 0x38;	// I2C Address of Chip
 }
 
 xOC06::xOC06(uint8_t addr) 
 {
 	REG_OUTPUT = 0x00;
 	STEP_SIZE = 1;
-	PCA9554A_I2C_ADDRESS = addr	// I2C Address of Chip
+	PCA9554A_I2C_ADDRESS = addr;	// I2C Address of Chip
 }
 /********************************************************
  	Configure Sensor

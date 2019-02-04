@@ -47,7 +47,7 @@ class xOC06: public xCoreClass
 		* Creates a new instance of Sensor class.
 		*/	
 		xOC06();
-		
+		xOC06(uint8_t addr);
 		/*
 		* Runs the setup of the sensor. 
 		* Call this in setup(), before reading any sensor data.
@@ -85,7 +85,7 @@ class xOC06: public xCoreClass
 		void move(long steps, float speed, uint8_t dir);
 		
 	private:
-		uint8_t PCA9554A_I2C_ADDRESS
+		uint8_t PCA9554A_I2C_ADDRESS;
 		uint8_t REG_OUTPUT;
 		uint8_t STEP_SIZE;
 };
