@@ -6,18 +6,18 @@
 # Instance			   		(KEYWORD1)
 #######################################
 
-OC06    KEYWORD1
+OC06	KEYWORD1
 
 #######################################
 # Methods and Functions		(KEYWORD2)
 #######################################
 
-begin   KEYWORD2
-step    KEYWORD2
-setDirection   KEYWORD2
-enable  KEYWORD2
-disable KEYWORD2
-move    KEYWORD2
+begin	KEYWORD2
+step	KEYWORD2
+setDirection	KEYWORD2
+enable	KEYWORD2
+disable	KEYWORD2
+move	KEYWORD2
 
 #######################################
 # Constants 		   		(LITERAL1)
