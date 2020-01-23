@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/xinabox/arduino-OC06.svg?branch=master)](https://travis-ci.org/xinabox/arduino-OC06)
+
 # ☒CHIP OC06
 <img src="extras/OC06 V0.5.0.JPG" width="35%" height="auto" align="right">
 Stepper Motor Controller
